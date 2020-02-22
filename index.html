@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Aleksandr Razdolski test site</title>
+        <link rel="stylesheet" href="public/css/bulma.min.css">
+        <link rel="stylesheet" href="public/css/style.css">
+    </head>
+    <body>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#">
+                    <img src="https://bulma.io/images/bulma-logo.png" alt="Aleksandr Razdolski is the best" width="112" height="28">
+                </a>
+            </div>
+
+            <div id="navbar" class="navbar-menu is-active">
+                <div class="navbar-start">
+                    <a class="navbar-item is-hoverable" href="#text-only">
+                        Text-only
+                    </a>
+
+                    <a class="navbar-item is-hoverable" href="#ordered-list">
+                        Ordered list
+                    </a>
+
+                    <a class="navbar-item is-hoverable" href="#table">
+                        Table
+                    </a>
+
+                    <a class="navbar-item is-hoverable" href="#text-with-pictures">
+                        Text with pictures
+                    </a>
+
+                    <a class="navbar-item is-hoverable" href="#form">
+                        Form
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="columns">
+            <div class="column is-one-third padding-left-50 padding-right-50">
+                <div class="card margin-top-50">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Aleksandr Razdolski">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Aleksandr Razdolski">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">Aleksandr Razdolski</p>
+                                <p class="subtitle is-6">@singking</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            I am the best front-end developer 2020<br/>
+                            <time datetime="2016-02-20">21:09 - 20 Jan 2020</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <section class="section" id="text-only">
+                    <div class="container">
+                        <h1 class="title">
+                            Text-only section
+                        </h1>
+                        <p class="subtitle">
+                            Lorem ipsum dolor sit amet
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id sodales dui. Suspendisse potenti. Fusce volutpat sollicitudin arcu, et varius justo. Pellentesque blandit facilisis dignissim. Integer id neque id diam malesuada tristique in sed libero. Proin vel ante fermentum ipsum tincidunt vehicula ut at eros. In non nulla non tortor varius feugiat. Nullam lorem risus, mattis nec augue et, condimentum efficitur nisi.<br />
+                            Phasellus molestie, massa vestibulum interdum suscipit, velit magna feugiat orci, ut ornare odio sem quis ante. Cras malesuada in libero quis semper. Nulla sodales, purus in congue varius, tortor augue aliquam arcu, ut vulputate nibh nulla sed tortor. Aliquam vel libero gravida, fermentum risus at, feugiat nunc. Maecenas non porttitor tortor. Integer enim tortor, condimentum vel elit vitae, scelerisque posuere elit. Quisque vel sem at lectus sagittis mollis. Aenean sed massa arcu. Nullam nec fringilla elit. Vestibulum dapibus lorem nec facilisis vestibulum. Morbi tincidunt lorem turpis, et scelerisque odio laoreet tincidunt. Vivamus porta luctus ipsum, sed elementum neque hendrerit in. Vivamus varius odio feugiat neque ultrices, vitae faucibus quam tempus. Vivamus est ante, sodales sit amet mattis in, finibus ut elit.
+                        </p>
+                    </div>
+                </section>
+                <section class="section" id="table">
+                    <div class="container">
+                        <h1 class="title">
+                            Table section
+                        </h1>
+                        <p class="subtitle">
+                            those are my top programming languages
+                        </p>
+                        <p>
+                            <table class="table width-100p">
+                                <thead>
+                                    <th><abbr title="Position">Pos</abbr></th>
+                                    <th><abbr title="Language">Lang</abbr></th>
+                                    <th><abbr title="Currently learning">Progress</abbr></th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>1</th>
+                                        <td>C#</td>
+                                        <td><progress class="progress is-success" value="100" max="100">100%</progress></td>
+                                    </tr>
+                                    <tr>
+                                        <th>2</th>
+                                        <td>C++</td>
+                                        <td><progress class="progress is-info" value="76" max="100">76%</progress></td>
+                                    </tr>
+                                    <tr>
+                                        <th>3</th>
+                                        <td>Go(lang)</td>
+                                        <td><progress class="progress is-warning" value="54" max="100">54%</progress></td>
+                                    </tr>
+                                    <tr>
+                                        <th>4</th>
+                                        <td>Ruby on Rails</td>
+                                        <td><progress class="progress is-warning" value="44" max="100">44%</progress></td>
+                                    </tr>
+                                    <tr>
+                                        <th>5</th>
+                                        <td>React</td>
+                                        <td><progress class="progress is-warning" value="55" max="100">55%</progress></td>
+                                    </tr>
+                                    <tr>
+                                        <th>6</th>
+                                        <td>Vanilla JS</td>
+                                        <td><progress class="progress is-info" value="66" max="100">66%</progress></td>
+                                    </tr>
+                                    <tr>
+                                        <th>7</th>
+                                        <td>Rust</td>
+                                        <td><progress class="progress is-danger" value="33" max="100">33%</progress></td>
+                                    </tr>
+                                    <tr>
+                                        <th>8</th>
+                                        <td>Elixir</td>
+                                        <td><progress class="progress is-danger" value="22" max="100">22%</progress></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                    </div>
+                </section>
+                <section class="section" id="text-with-pictures">
+                    <div class="container">
+                        <h1 class="title">
+                            Meme?
+                        </h1>
+                        <p class="subtitle">
+                            (what am I doing here)
+                        </p>
+                        <div class="columns">
+                            <div class="column is-one-fifth">
+                                <img src="public/image/doge.png" style="display:inline-block;" alt="WOOF!"><br/>
+                            </div>
+                            <div class="column">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id sodales dui. Suspendisse potenti. Fusce volutpat sollicitudin arcu, et varius justo. Pellentesque blandit facilisis dignissim. Integer id neque id diam malesuada tristique in sed libero. Proin vel ante fermentum ipsum tincidunt vehicula ut at eros. In non nulla non tortor varius feugiat. Nullam lorem risus, mattis nec augue et, condimentum efficitur nisi.</p><br/>
+                                <p>Phasellus molestie, massa vestibulum interdum suscipit, velit magna feugiat orci, ut ornare odio sem quis ante. Cras malesuada in libero quis semper. Nulla sodales, purus in congue varius, tortor augue aliquam arcu, ut vulputate nibh nulla sed tortor. Aliquam vel libero gravida, fermentum risus at, feugiat nunc. Maecenas non porttitor tortor. Integer enim tortor, condimentum vel elit vitae, scelerisque posuere elit. Quisque vel sem at lectus sagittis mollis. Aenean sed massa arcu. Nullam nec fringilla elit. Vestibulum dapibus lorem nec facilisis vestibulum. Morbi tincidunt lorem turpis, et scelerisque odio laoreet tincidunt. Vivamus porta luctus ipsum, sed elementum neque hendrerit in. Vivamus varius odio feugiat neque ultrices, vitae faucibus quam tempus. Vivamus est ante, sodales sit amet mattis in, finibus ut elit.</p><br/>
+                                <p>Vestibulum turpis turpis, rutrum id urna et, mollis pellentesque urna. Morbi dapibus faucibus dignissim. Cras nibh purus, fringilla in tempus vel, lobortis a justo. Integer consequat venenatis erat vel vehicula. Nunc gravida velit vel nisl commodo, sit amet dictum est mollis. Nullam sollicitudin viverra sagittis. Praesent at pretium dolor. Praesent sed mollis odio. Quisque rhoncus nulla vel consequat pharetra. Cras lobortis porta risus eget tincidunt. Vestibulum egestas id ligula sed imperdiet. Aenean urna lorem, sodales vel metus ac, lobortis scelerisque lorem. Suspendisse vel elit nec libero vehicula semper sit amet vel sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum molestie turpis et maximus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section" id="ordered-list">
+                    <div class="container">
+                        <h1 class="title">
+                            Why you should use CSS frameworks
+                        </h1>
+                        <p>
+                            Some of the reasons why you should use CSS frameworks and why you should not invent a <b>bicycle!</b>
+                            <ol class="margin-left-20">
+                                <li>They.</li>
+                                <li>are.</li>
+                                <li>great.</li>
+                                <li>&amp;</li>
+                                <li>make.</li>
+                                <li>responsive.</li>
+                                <li>designs.</li>
+                                <li>so easy.</li>
+                                <li>to.</li>
+                                <li>do.</li>
+                            </ol>
+                        </p>
+                    </div>
+                </section>
+                <section class="section" id="form">
+                    <div class="container">
+                        <h1 class="title">
+                            The great form
+                        </h1>
+                            <form>
+                                <div class="field">
+                                    <label class="label">Name</label>
+                                    <div class="control">
+                                        <input class="input" type="text" placeholder="Text input">
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <label class="label">Username</label>
+                                    <div class="control">
+                                        <input class="input" type="text" placeholder="Text input" value="bulma">
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <label class="label">Email</label>
+                                    <div class="control">
+                                        <input class="input" type="email" placeholder="Email input" value="hello@">
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <label class="label">Subject</label>
+                                    <div class="control">
+                                        <div class="select">
+                                            <select>
+                                                <option>Select dropdown</option>
+                                                <option>With options</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <label class="label">Message</label>
+                                    <div class="control">
+                                        <textarea class="textarea" placeholder="Textarea"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <div class="control">
+                                        <label class="checkbox">
+                                            <input type="checkbox">
+                                            I agree to the <a href="#">terms and conditions</a>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <div class="control">
+                                        <label class="radio">
+                                            <input type="radio" name="question">
+                                            Yes
+                                        </label>
+                                        <label class="radio">
+                                            <input type="radio" name="question">
+                                            No
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <label class="label">Time</label>
+                                    <div class="control">
+                                        <input class="input" type="time">
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <label class="label">Time</label>
+                                    <div class="control">
+                                        <input class="input" type="date">
+                                    </div>
+                                </div>
+
+                                <div class="field is-grouped">
+                                    <div class="control">
+                                        <button class="button is-link">Submit</button>
+                                    </div>
+                                    <div class="control">
+                                        <button class="button is-link is-light">Cancel</button>
+                                    </div>
+                                </div>
+                            </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <footer class="footer is-fixed-bottom">
+            <div class="content has-text-centered">
+                <p>
+                    Aleksandr Razdolski | written using <a href="https://bulma.io">Bulma</a> &copy; 2020
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
